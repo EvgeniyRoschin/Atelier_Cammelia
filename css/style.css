@@ -66,6 +66,22 @@ a {
     padding-bottom: 100px;
 }
 
+@media (max-width: 641px) {
+    .page-header {
+        background-image: url(../images/main_500.jpg);
+    }
+    
+    .page-header-wrapper {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        position: relative;
+        z-index: 1;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+}
+
 .top-line-wrapper {
     display: flex;
     align-items: center;
@@ -95,6 +111,37 @@ a {
 
 .adress {
     font-family: opensans-bold;
+}
+
+@media (max-width: 641px) {
+    .top-line-wrapper {
+        display: inline; 
+    }
+
+    .logo-atelier {
+        font-size: 30px;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contacts-wrapper {
+        margin-top: 20px;
+        margin-left: 30vw;
+    }
+
+    .telephone-number {
+        font-size: 14px;
+    }
+
+    .adress-wrapper {
+        margin-top: 0;
+    }
+
+    .adress {
+        font-size: 14px;
+    }
 }
 
 .main-menu-wrapper {
@@ -132,6 +179,32 @@ a {
     margin-left: 50px;
     font-family: ropasans;
     font-size: 60px;
+}
+
+@media (max-width: 641px) {
+    .main-menu-list {
+        display: inline;
+        padding: 0;
+    }
+
+    .main-menu-item {
+        text-align: center;
+    } 
+
+    .menu-item-link {    
+        font-size: 16px;
+    }
+
+    .slogan-wrapper {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .slogan {
+        margin-left: 0;
+        font-size: 30px;
+        text-align: center;
+    }
 }
 
 .main-content-block {
@@ -182,6 +255,44 @@ a {
     margin-top: 30px;
 }
 
+@media (max-width: 641px) {
+    .main-content-block {
+        padding-left: 5vw;
+        padding-right: 5vw;    
+        padding-top: 20px;
+    }
+
+    .block-header {
+        font-size: 25px;
+    }
+
+    .advantages-block {
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    .advantage-item {
+        width: 45%;
+    }
+
+    .advantage-icon-circle {
+        background-color: #8cf7bc;
+        width: 90px;
+        height: 90px;
+        padding: 20px;
+    }
+
+    .advantage-icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .advantage-describtion {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+
 .main-content-block-grey {
     background-color: #f1f1f1;
 }
@@ -220,6 +331,39 @@ a {
     margin: 0;
 }
 
+@media (max-width: 641px) {
+    .block-text-wrapper {
+        padding-bottom: 10px;
+        text-align: left;
+    }
+
+    .block-text {
+        font-size: 14px;
+    }
+
+    .lower-header {
+        font-size: 22px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .who-sews-item {
+        padding-bottom: 10px;
+    }
+
+    .who-sews-arrow {
+        margin-right: 8px;
+    }
+
+    .who-sews-arrow-icon {
+        width: 30px;
+    }
+
+    .who-sews-item-header {
+        font-size: 14px;
+    }
+}
+
 .what-we-sew-list {
     display: flex;
     flex-wrap: wrap;
@@ -240,6 +384,22 @@ a {
     line-height: 60px;
     border-radius: 30px;
 } 
+
+@media (max-width: 641px) {
+    .what-we-sew-list {
+        padding-bottom: 10px;
+    }
+
+    .what-we-sew-item {
+        width: 45%;
+        margin-bottom: 5px;
+        font-size: 12px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 15px;
+    } 
+    
+}
 
 .order-steps-list {
     display: flex;
@@ -277,6 +437,30 @@ a {
     margin-bottom: 10px;
 }
 
+@media (max-width: 641px) {
+    .order-steps-list {
+        padding-bottom: 10px;
+    }
+
+    .order-steps-item {
+        border: 2px solid #8cf7bc;
+        margin-bottom: 10px;
+        font-size: 12px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+    
+    .order-steps-item-number {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        line-height: 40px;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
 .forhome-block {
     display: flex;
     flex-wrap: wrap;
@@ -297,6 +481,28 @@ a {
     text-align: center;
     font-size: 18px;
     font-family: opensans-bold;
+}
+
+@media (max-width: 641px) {
+    .forhome-block {
+        padding-bottom: 30px;
+    }
+
+    .forhome-img-wrapper {
+        width: 100px;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    .forhome-img {
+        width: 100px;
+        height: 100px;
+        border: 2px solid #8cf7bc;
+    }
+
+    .forhome-img-description {
+        font-size: 12px;
+    }
 }
 
 .contacts-block-wrapper {
@@ -355,6 +561,50 @@ a {
 
 .map-wrapper {
     border: 3px solid #8cf7bc;
+}
+
+@media (max-width: 641px) {
+    .contacts-block-wrapper {
+        display: inline;
+        padding-bottom: 30px;
+    }
+
+    .contacts-info-wrapper {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .contacts-info-item {
+        padding: 15px 0 15px 50px;
+    }
+
+    .contacts-info-item::before {
+        width: 30px;
+        height: 30px;
+        top: 20px;
+    }
+    
+    .contacts-info-item-header {
+        font-size: 14px;
+    }
+
+    .contacts-info-item-text {
+        font-size: 14px;
+    }
+
+    .map-wrapper {
+        border: 2px solid #8cf7bc;
+        width: 284px;
+        height: 220px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .map {
+        width: 284px;
+        height: 220px;
+    }
 }
 
 .page-footer {
@@ -420,4 +670,40 @@ a {
     line-height: 40px;
     font-family: opensans-regular;
     font-size: 12px;
+}
+
+@media (max-width: 641px) {
+    .page-footer {
+        background-image: url(../images/footer_500.jpg);
+    }
+
+    .page-footer-container {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        position: relative;
+        z-index: 1;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .logo-atelier-footer {
+        width: 100%;
+    }
+
+    .menu-list-footer {
+        margin-top: 30px;
+    }
+
+    .main-menu-item-footer {
+        padding-left: 0;
+        line-height: 20px;
+    }
+
+    .footer-inf {
+        font-size: 10px;
+        color: #f1f1f1;
+        line-height: 16px;
+        margin-bottom: 0;
+    }
 }

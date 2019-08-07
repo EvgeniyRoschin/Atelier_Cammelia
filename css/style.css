@@ -1,0 +1,423 @@
+@font-face {
+    font-family: opensans-regular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: opensans-bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: andantino;
+    src: url(../fonts/Andantino.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ropasans;
+    src: url(../fonts/RopaSans.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: opensans-regular;
+}
+  
+a {
+    text-decoration: none;
+}
+
+.page-header {
+    background-color: #000000;
+    background-image: url(../images/main_1200.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+}
+
+.page-header::after {
+    content: " ";
+    background-color: #000000;
+    position: absolute;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.page-header-wrapper {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    position: relative;
+    z-index: 1;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.top-line-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-atelier {
+    font-family: andantino;
+    font-size: 65px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.telephone-number {
+    color: #ffffff;
+    font-family: opensans-bold;
+    font-size: 18px;
+}
+
+.telephone-number:hover {
+    color: #8cf7bc;
+}
+
+.adress-wrapper {
+    margin-top: 10px;
+}
+
+.adress {
+    font-family: opensans-bold;
+}
+
+.main-menu-wrapper {
+    margin-top: 30px;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+.main-menu-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-menu-item {
+    list-style: none;
+}
+
+.menu-item-link {    
+    font-family: ropasans;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.menu-item-link:hover {
+    color: #8cf7bc;
+    border-bottom: 2px solid  #8cf7bc;
+}
+
+.slogan-wrapper {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.slogan {
+    margin-left: 50px;
+    font-family: ropasans;
+    font-size: 60px;
+}
+
+.main-content-block {
+    padding-left: 7vw;
+    padding-right: 7vw;    
+    padding-top: 40px;
+}
+
+.block-header {
+    text-align: center;
+    font-family: ropasans;
+    font-size: 40px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.advantages-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.advantage-item {
+    width: 20%;
+}
+
+.advantage-icon-circle {
+    background-color: #8cf7bc;
+    width: 130px;
+    height: 130px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.advantage-icon {
+    display: block;
+    height: 70px;
+    width: 70px;
+}
+
+.advantage-describtion {
+    text-align: center;
+    font-family: opensans-bold;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.main-content-block-grey {
+    background-color: #f1f1f1;
+}
+
+.block-text-wrapper {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.block-text {
+    font-size: 18px;
+}
+
+.lower-header {
+    font-family: ropasans;
+    font-size: 30px;
+    text-align: center;
+}
+
+.who-sews-item {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.who-sews-arrow {
+    margin-right: 20px;
+}
+
+.who-sews-arrow-icon {
+    width: 90px;
+}
+
+.who-sews-item-header {
+    font-size: 18px;
+    font-family: opensans-bold;
+    margin: 0;
+}
+
+.what-we-sew-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 0;
+    padding-bottom: 30px;
+}
+
+.what-we-sew-item {
+    width: 250px;
+    list-style: none;
+    background-color: #8cf7bc;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: opensans-bold;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+} 
+
+.order-steps-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 0;
+    padding-bottom: 30px;
+}
+
+.order-steps-item {
+    width: 30%;
+    list-style: none;
+    border: 3px solid #8cf7bc;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: opensans-bold;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.order-steps-item-number {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8cf7bc;
+    border-radius: 50%;
+    line-height: 70px;
+    font-size: 50px;
+    font-family: opensans-regular;
+    color: #f1f1f1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.forhome-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+
+.forhome-img {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #8cf7bc;
+    border-radius: 50%;
+}
+
+.forhome-img-description {
+    text-align: center;
+    font-size: 18px;
+    font-family: opensans-bold;
+}
+
+.contacts-block-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.contacts-info-wrapper {
+    width: 40%;
+    padding-top: 50px;
+}
+
+.contacts-info-item {
+    padding: 20px 0 20px 80px;
+    position: relative;
+}
+
+.contacts-info-item::before {
+    content: " ";
+    background-image: url(../images/placeholder.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 15px;
+}
+
+.contacts-info-item-second::before {
+    background-image: url(../images/call.png);
+}
+
+.contacts-info-item-third::before {
+    background-image: url(../images/time.png);
+}
+
+.contacts-info-item-header {
+    font-size: 18px;
+    font-family: opensans-bold;
+    margin: 0;
+}
+
+.contacts-info-item-text {
+    margin: 0;
+}
+
+.telephone {
+    color: #000000;
+}
+
+.telephone:hover {
+    color:  #8cf7bc;
+}
+
+.map-wrapper {
+    border: 3px solid #8cf7bc;
+}
+
+.page-footer {
+    background-color: #000000;
+    background-image: url(../images/footer_1200.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+}
+
+.page-footer::after {
+    content: " ";
+    background-color: #000000;
+    position: absolute;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.page-footer-container {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-atelier-footer {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.main-menu-list-footer {
+    margin: 0;
+    padding-left: 0;
+}
+
+.main-menu-item-footer {
+    padding-left: 40px;
+    line-height: 40px;
+}
+
+.menu-item-link-footer {    
+    font-size: 12px;
+}
+
+.menu-item-link:hover {
+    color: #8cf7bc;
+    border-bottom: 0;
+}
+
+.footer-inf {
+    margin-top: 15px;
+    line-height: 40px;
+    font-family: opensans-regular;
+    font-size: 12px;
+}

@@ -79,7 +79,6 @@ a {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    
 }
 
 .top-line-wrapper {
@@ -141,6 +140,20 @@ a {
 
     .adress {
         font-size: 14px;
+    }
+}
+
+@media (min-width: 642px) and (max-width: 1000px) {
+    .logo-atelier {
+        font-size: 45px;
+    }
+
+    .telephone-number {
+        font-size: 16px;
+    }
+
+    .adress {
+        font-size: 16px;
     }
 }
 
@@ -293,6 +306,21 @@ a {
     }
 }
 
+@media (min-width: 642px) and (max-width: 1000px) {
+    .main-content-block {
+        padding-top: 20px;
+    }
+    
+    .advantages-block {
+        margin-bottom: 20px;
+    }
+
+    .advantage-describtion {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+}
+
 .main-content-block-grey {
     background-color: #f1f1f1;
 }
@@ -364,6 +392,21 @@ a {
     }
 }
 
+@media (min-width: 642px) and (max-width: 1000px) {
+    .block-text-wrapper {
+        padding-bottom: 20px;
+    }
+
+    .lower-header {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .who-sews-arrow-icon {
+        width: 60px;
+    }
+}
+
 .what-we-sew-list {
     display: flex;
     flex-wrap: wrap;
@@ -373,7 +416,7 @@ a {
 }
 
 .what-we-sew-item {
-    width: 250px;
+    width: 22%;
     list-style: none;
     background-color: #8cf7bc;
     text-align: center;
@@ -398,7 +441,20 @@ a {
         line-height: 30px;
         border-radius: 15px;
     } 
-    
+}
+
+@media (min-width: 642px) and (max-width: 1000px) {
+    .what-we-sew-list {
+        padding-bottom: 20px;
+    }
+    .what-we-sew-item {
+        width: 30%;
+        margin-bottom: 8px;
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 20px;
+    } 
 }
 
 .order-steps-list {
@@ -461,6 +517,26 @@ a {
     }
 }
 
+@media (min-width: 642px) and (max-width: 1000px) {
+    .order-steps-list {
+        padding-bottom: 0;
+    }
+
+    .order-steps-item {
+        font-size: 16px;
+    }
+
+    .order-steps-item-number {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        line-height: 55px;
+        font-size: 35px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
 .forhome-block {
     display: flex;
     flex-wrap: wrap;
@@ -468,6 +544,14 @@ a {
     padding-bottom: 70px;
 }
 
+.forhome-img-wrapper {
+    width: 30%;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-left: calc((30% - 250px) / 2);
+    padding-right: calc((30% - 250px) / 2);
+    box-sizing: border-box;
+}
 .forhome-img {
     width: 250px;
     height: 250px;
@@ -489,19 +573,42 @@ a {
     }
 
     .forhome-img-wrapper {
-        width: 100px;
         margin: 0;
         padding-bottom: 20px;
+        padding-left: calc((30% - 80px) / 2);
+        padding-right: calc((30% - 80px) / 2);
     }
 
     .forhome-img {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         border: 2px solid #8cf7bc;
     }
 
     .forhome-img-description {
         font-size: 12px;
+    }
+}
+
+@media (min-width: 642px) and (max-width: 1000px) {
+    .forhome-block {
+        padding-bottom: 40px;
+    }
+
+    .forhome-img-wrapper {
+        margin: 0;
+        padding-bottom: 20px;
+        padding-left: calc((30% - 180px) / 2);
+        padding-right: calc((30% - 180px) / 2);
+    }
+
+    .forhome-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .forhome-img-description {
+        font-size: 16px;
     }
 }
 
@@ -561,6 +668,13 @@ a {
 
 .map-wrapper {
     border: 3px solid #8cf7bc;
+    width: 50%;
+
+}
+
+.map {
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 641px) {
@@ -594,16 +708,48 @@ a {
 
     .map-wrapper {
         border: 2px solid #8cf7bc;
-        width: 284px;
-        height: 220px;
+        width: 100%;
+        height: 260px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
     }
 
     .map {
-        width: 284px;
-        height: 220px;
+        width: 100%;
+        height: 260px;
+    }
+}
+
+@media (min-width: 642px) and (max-width: 1000px) {
+    .contacts-block-wrapper {
+        display: inline;
+        padding-bottom: 30px;
+    }
+
+    .contacts-info-wrapper {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .contacts-info-item {
+        padding: 10px 0 10px 60px;
+    }
+
+    .contacts-info-item::before {
+        width: 40px;
+        height: 40px;
+    }
+
+    .map-wrapper {
+        margin-bottom: 30px;
+        width: 100%;
+        height: 250px;
+
+    }
+
+    .map {
+        width: 100%;
     }
 }
 
@@ -705,5 +851,31 @@ a {
         color: #f1f1f1;
         line-height: 16px;
         margin-bottom: 0;
+    }
+}
+
+@media (min-width: 642px) and (max-width: 1000px) {
+    .page-footer-container {
+        flex-direction: column;
+    }
+
+    .logo-atelier-footer {
+        width: 100%;
+    }
+
+    .menu-list-footer {
+        margin-top: 30px;
+    }
+
+    .main-menu-item-footer {
+        padding-left: 0;
+    }
+
+    .main-menu-item-footer:nth-child(n+2) {
+        padding-left: 30px;
+    }
+
+    .footer-inf {
+        line-height: 18px;
     }
 }
